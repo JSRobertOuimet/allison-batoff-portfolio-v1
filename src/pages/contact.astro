@@ -1,0 +1,92 @@
+---
+
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Allison Batoff</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="/">Photography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/design">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h1 class="mb-4">Contact</h1>
+                <div class="row">
+                    <div class="col-md">
+                        <p>My name is Allison Batoff and I am a user experience designer based out of Ottawa, Ontario.</p>
+                        <p>When I’m away from my desk I love to travel and to capture the places I visit through photography.</p>
+                        <p>
+                            Interested in working together or just curious to learn more? Reach out to me on <a
+                                href="https://www.linkedin.com/in/allisonbatoff/">LinkedIn</a
+                            >, or using the contact form, and I will happily answer your questions.
+                        </p>
+                        <p>
+                            I can also be found on <a href="http://twitter.com/AllisonBatoff">Twitter</a> where I share what I learn and what inspires
+                            me.
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg mb-3">
+                                    <label for="firstName" class="form-label">First Name (required)</label>
+                                    <input type="text" class="form-control" id="firstName" required />
+                                </div>
+                                <div class="col-lg mb-3">
+                                    <label for="lastName" class="form-label">Last Name (required)</label>
+                                    <input type="text" class="form-control" id="lastName" required />
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address (required)</label>
+                                <input type="email" class="form-control" id="email" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject (required)</label>
+                                <input type="text" class="form-control" id="subject" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message (required)</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <input type="button" value="Submit" class="btn btn-primary" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
