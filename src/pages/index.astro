@@ -1,48 +1,18 @@
 ---
-
+import { SITE_TITLE, SITE_DESCRIPTION } from "../constants";
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+const pageTitle = "Photography";
 ---
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>Astro</title>
-    </head>
+    <Head siteTitle={SITE_TITLE} siteDescription={SITE_DESCRIPTION} pageTitle={pageTitle} />
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
-                <div class="container">
-                    <a class="navbar-brand" href="/">Allison Batoff</a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a href="/">Photography</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/design">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
-        </header>
+        <Header />
         <main>
-            <h1>Photography</h1>
+            <div class="container">
+                <h1 class="mb-4">{pageTitle}</h1>
+            </div>
         </main>
     </body>
 </html>
