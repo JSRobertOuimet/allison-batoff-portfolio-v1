@@ -1,23 +1,8 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from "../constants";
-import Head from "../components/Head.astro";
-import Header from "../components/Header.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Design";
 ---
 
-<html lang="en">
-    <Head siteTitle={SITE_TITLE} siteDescription={SITE_DESCRIPTION} pageTitle={pageTitle} />
-    <body>
-        <Header />
-        <main>
-            <div class="container">
-                <h1 class="mb-4">{pageTitle}</h1>
-                <ul>
-                    <li>
-                        <a href="/case-studies/accessibility-compliance-for-e-store">Accessibility Compliance for e-Store</a>
-                    </li>
-                </ul>
-            </div>
-        </main>
-    </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+    <p>Content for {pageTitle}.</p>
+</BaseLayout>
