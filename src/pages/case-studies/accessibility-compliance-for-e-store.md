@@ -6,7 +6,7 @@ description: "This project was driven by the legal requirements from the
     is accessible to meet AODA (Accessibility for Ontarians with Disabilities Act)
     requirements of certain business partners."
 image:
-    url: "public/design/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
+    url: "/design/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Accessibility Audit", "Documentation", "Wireframes"]
 ---
