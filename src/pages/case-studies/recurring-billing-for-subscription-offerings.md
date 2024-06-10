@@ -2,7 +2,7 @@
 title: "Recurring Billing for Subscription Offerings"
 description: "This project was driven by a new business requirement to support recurring billing for subscription products. Prior to this, two types of software product licenses were sold: perpetual licenses and time-bound licenses. This new business direction required us to also support recurring subscriptions that could automatically be billed and renewed on a regular basis (i.e. every month, 6-months or year). The goal of this project was to create an experience for students and professors that would allow them to easily manage their subscriptions and payments and to create an experience for administrators that would allow them to configure and manage subscription products in their stores."
 image:
-    url: "/assets/internal-ticketing-system-for-dbas-thumbnail.jpg"
+    url: "/design/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
     alt: "Alternative text."
 tags: ["Competitor Analysis", "Content Development", "Wireframes"]
 ---

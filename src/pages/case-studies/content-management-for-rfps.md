@@ -2,7 +2,7 @@
 title: "Content Management for RFPs"
 description: "The purpose of this project was to conceptualize and design a new SaaS product. This application was used to search a client’s repository of documents and facilitate the creation of RFPs using a machine learning algorithm. The goal of this project was to create an experience that would allow users to easily be able to curate their content and collaborate with team members."
 image:
-    url: "/assets/content-management-for-rfps.jpg"
+    url: "/design/content-management-for-rfps/content-management-for-rfps-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Domain Analysis", "High-Fidelity Mockups", "Wireframes"]
 ---

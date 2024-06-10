@@ -1,11 +1,11 @@
 ---
 title: "University Purchasing Approval Flows"
 description: "The purpose of this project was to research the process used by
-  post-secondary institutions to purchase, approve and distribute electronic
-  software. The goal was to define the requirements for an MVP feature that
-  would help to streamline and automate parts of this process."
+    post-secondary institutions to purchase, approve and distribute electronic
+    software. The goal was to define the requirements for an MVP feature that
+    would help to streamline and automate parts of this process."
 image:
-    url: ""
+    url: "/design/university-purchasing-approval-flows/university-purchasing-approval-flows-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Competitor Analysis", "Process Flow Diagram", "User Interviews"]
 ---

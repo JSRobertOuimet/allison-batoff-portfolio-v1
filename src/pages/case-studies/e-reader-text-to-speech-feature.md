@@ -2,7 +2,7 @@
 title: "E-Reader Text-to-Speech Feature"
 description: "The purpose of this project was to conceptualize and design a new customer portal. This project was undertaken to support a change in business direction from selling fixed contracts to a subscription payment model. This application was used by customers to track work, view reports and open tickets. The goal of this project was to create an experience that would be catered to the specific needs of different user groups, providing them with the level of information they needed in a just-in-time manner."
 image:
-    url: "/assets/e-reader-text-to-speech-feature-thumbnail.jpg"
+    url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
 ---
@@ -10,7 +10,7 @@ tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
 <!-- markdownlint-disable MD033 -->
 
 <figure>
-  <img src="/assets/case-studies/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg" alt="Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet.">
+  <img src="/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg" alt="Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet.">
   <figcaption>
     Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet.
   </figcaption>
@@ -63,7 +63,7 @@ We used these findings to capture the user experience requirements for this feat
 While capturing user feedback, we discovered that many students were using this feature while commuting. Understanding this use case helped us to prioritize some requirements, including allowing the book to be read continuously, giving the users access to audio controls on their phone’s lock screen and making it easy for them to skip back to a previous section if they missed some of the content that was read. We also introduced word-by-word highlighting to further assist students with learning challenges to follow along with the text.
 
 <figure>
-  <img src="/assets/case-studies/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.">
+  <img src="/design/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.">
   <figcaption>
     Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.
   </figcaption>

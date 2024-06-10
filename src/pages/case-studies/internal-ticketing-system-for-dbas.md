@@ -2,7 +2,7 @@
 title: "Internal Ticketing System for DBAs"
 description: "The purpose of this project was to assess the usability challenges and pain points of an existing enterprise application. This application was used to track work, monitor the status of client systems and schedule and assign roles. The goal of this project was to gain insight into how the application is being used, identify areas that could benefit from improvement and prioritize the work that would offer the greatest impact on the user experience while being the least disruptive to existing business operations."
 image:
-    url: "/assets/internal-ticketing-system-for-dbas-thumbnail.jpg"
+    url: "/design/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Card Sorting", "Interactive Prototype", "Survey", "User Interview"]
 ---

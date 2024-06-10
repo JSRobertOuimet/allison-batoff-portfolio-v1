@@ -2,7 +2,7 @@
 title: "Customer Portal for DBA Services"
 description: "The purpose of this project was to conceptualize and design a new customer portal. This project was undertaken to support a change in business direction from selling fixed contracts to a subscription payment model. This application was used by customers to track work, view reports and open tickets. The goal of this project was to create an experience that would be catered to the specific needs of different user groups, providing them with the level of information they needed in a just-in-time manner."
 image:
-    url: "/assets/customer-portal-for-dba-services-thumbnail.jpg"
+    url: "/design/customer-portal-for-dba-services/customer-portal-for-dba-services-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["A/B Testing", "Persona", "User Acceptance Testing", "User Interviews"]
 ---

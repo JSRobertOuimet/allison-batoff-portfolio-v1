@@ -2,7 +2,7 @@
 title: "Workload Management"
 description: "This project was driven by a new policy requirement to recover the costs of delivering government services. This was a significant change for the program as it required charging for a service that had previously been provided free of cost. These new fees also included strict service standards and required daily activities to be tracked at a very granular level. The goal of this project was to redesign the service to support the new requirements. We also aimed to replace some of the manual processes with automation as these tasks are very time consuming and result in manual errors."
 image:
-    url: ""
+    url: "/design/workload-management/workload-management-thumbnail.png"
     alt: "Alternative text."
 tags: ["Job Shadowing", "Service Design", "User Journey Map"]
 ---

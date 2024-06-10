@@ -6,7 +6,7 @@ description: "This project was driven by the legal requirements from the
     is accessible to meet AODA (Accessibility for Ontarians with Disabilities Act)
     requirements of certain business partners."
 image:
-    url: "/assets/accessibility-compliance-for-e-store-thumbnail.jpg"
+    url: "public/design/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Accessibility Audit", "Documentation", "Wireframes"]
 ---
@@ -14,7 +14,7 @@ tags: ["Accessibility Audit", "Documentation", "Wireframes"]
 <!-- markdownlint-disable MD033 -->
 
 <figure>
-  <img src="./public/design/accessibility-compliance-for-e-store/screen-reader.gif" alt="Form Accessibility for Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue.">
+  <img src="/design/accessibility-compliance-for-e-store/screen-reader.gif" alt="Form Accessibility for Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue.">
   <figcaption>
     Form Accessibility for Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue.
   </figcaption>
@@ -67,7 +67,7 @@ Modal dialogs are announced to assistive technology so that visually impaired us
 It is generally a best practise not to overload these dialogs with too much content. However, if a modal must contain a large amount of content and therefore scroll, only the modal content should scroll and the background should be prevented from scrolling. Users must be able to easily return to their original context from within the modal dialog. Therefore, multiple methods were made available to users and are highlighted in the example below.
 
 <figure>
-  <img src="./public/design/accessibility-compliance-for-e-store/anatomy-of-a-modal.jpg" alt="Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key.">
+  <img src="/design/accessibility-compliance-for-e-store/anatomy-of-a-modal.jpg" alt="Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key.">
   <figcaption>
     Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key.
   </figcaption>

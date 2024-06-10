@@ -2,7 +2,7 @@
 title: "Design Operations"
 description: "User experience as a discipline is relatively new in Government of Canada information technology (IT) organizations. I joined an organization where there were some user experience designers and researchers on staff, however there was not a good understanding of the role among all teams and project stakeholders. This created challenges for team leads and managers to properly support these staff members. Project stakeholders often had never worked with a researcher before and did not understand the value that research can bring to their projects. This initiative was created out of a need to scale user experience practices and grow organizational user experience maturity."
 image:
-    url: ""
+    url: "/design/design-operations/design-operations-thumbnail.png"
     alt: "Alternative text."
 tags: ["Accessibility", "Design Operations", "Design System"]
 ---
