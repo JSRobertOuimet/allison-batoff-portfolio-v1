@@ -1,6 +1,23 @@
+/* ==================== */
+/* Container */
+/* ==================== */
+
+@media (min-width: 768px) {
+    .case-study {
+        max-width: 720px;
+    }
+}
+
 .case-study {
-    max-width: 800px;
     margin-bottom: 8rem;
+}
+
+/* ==================== */
+/* Headings */
+/* ==================== */
+
+h1 {
+    text-wrap: balance;
 }
 
 .case-study h2:first-of-type {
@@ -18,15 +35,15 @@
     margin-top: 1rem;
 }
 
-.case-study .figure + p {
-    margin-top: 1rem;
-}
-
 .case-study h3 {
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 700;
 }
+
+/* ==================== */
+/* Figures */
+/* ==================== */
 
 .case-study .figure {
     margin-top: 1rem;
@@ -34,6 +51,10 @@
 
 .figure:last-child {
     margin-bottom: 0;
+}
+
+.case-study .figure + p {
+    margin-top: 1rem;
 }
 
 .ratio + .figure-caption {
