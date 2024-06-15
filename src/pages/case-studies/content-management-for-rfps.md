@@ -1,32 +1,21 @@
 ---
-title: "Content Management for RFPs"
-description: "The purpose of this project was to conceptualize and design a new SaaS product. This application was used to search a client’s repository of documents and facilitate the creation of RFPs using a machine learning algorithm. The goal of this project was to create an experience that would allow users to easily be able to curate their content and collaborate with team members."
-image:
+audience: "proposal writers"
+description: "The goal of this project was to create an experience that would allow users to easily curate a repository of documents and facilitate the creation of RFPs using a machine learning algorithm."
+duration: "8 weeks"
+hero:
+    caption: "Content Management for RFPs Mockups: These mockups were used to communicate with the development team for implementation and to set expectations with project stakeholders."
+    embed: true
+    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FContent-Management-for-RFPs%3Fnode-id%3D337-218%26t%3DdyPBLMARkNOGiCw9-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D337%253A54"
+thumbnail:
+    alt: ""
     url: "/design/content-management-for-rfps/content-management-for-rfps-thumbnail.jpg"
-    alt: "Alternative text."
+layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Domain Analysis", "High-Fidelity Mockups", "Wireframes"]
+title: "Content Management for RFPs"
+year: 2018
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-<figure>
-  <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FCase-Study-3-Content-Management-for-RFPs%3Fnode-id%3D337%253A218%26viewport%3D1130%252C534%252C0.158927783370018%26scaling%3Dscale-down"></iframe>
-  <figcaption>
-    Content Management for RFP Mockups: These mockups were used to communicate with the development team for implementation and to set expectations with project stakeholders.
-  </figcaption>
-</figure>
-
-## Year
-
-2018
-
-## Audience
-
-Proposal writers
-
-## Duration
-
-8 weeks
 
 ## Description
 
@@ -42,17 +31,19 @@ I began this project by doing a domain analysis of the role and the environment 
 
 I used these requirements to build a set of wireframes and tested them with the SMEs. Based on their feedback and the results of testing, I produced high fidelity mockups and a set of design specs for implementation.
 
-## Solution
-
-During usability testing, we observed that while users searched the database of documents and found segments they wanted to use, they would often pass by an item and then have a difficult time locating it again. To solve this problem, we created a history feature that would allow users to see a timeline of items they had previously viewed.
+<figure class="figure">
+    <div class="ratio ratio-4x3">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FContent-Management-for-RFPs%3Fnode-id%3D68-793%26t%3DY5QG3ejsymw5f6rB-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26page-id%3D68%253A786%26starting-point-node-id%3D68%253A793" allowfullscreen></iframe>
+    </div>
+    <figcaption class="figure-caption">
+        A domain analysis was done to understand and capture the role and the environment of proposal writers, including the tools they use and how they collaborate with their colleagues.
+    </figcaption>
+</figure>
 
 ## Challenges
 
 We explored several design concepts for the main segment view. We discarded a concept where segments were viewed full-screen within their parent document. This view took users out of context and caused friction as users needed to remember where they left off when they returned to their original task.
 
-<figure>
-  <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FCase-Study-3-Content-Management-for-RFPs%3Fnode-id%3D68%253A793%26viewport%3D25%252C517%252C0.34275731444358826%26scaling%3Dcontain"></iframe>
-  <figcaption>
-    Domain Analysis: A domain analysis was done to understand and capture the role and the environment of proposal writers, including the tools they use and how they collaborate with their colleagues.
-  </figcaption>
-</figure>
+## Solution
+
+During usability testing, we observed that while users searched the database of documents and found segments they wanted to use, they would often pass by an item and then have a difficult time locating it again. To solve this problem, we created a history feature that would allow users to see a timeline of items they had previously viewed.

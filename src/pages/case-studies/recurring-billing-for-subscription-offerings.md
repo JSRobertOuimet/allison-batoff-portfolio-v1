@@ -1,32 +1,21 @@
 ---
-title: "Recurring Billing for Subscription Offerings"
-description: "This project was driven by a new business requirement to support recurring billing for subscription products. Prior to this, two types of software product licenses were sold: perpetual licenses and time-bound licenses. This new business direction required us to also support recurring subscriptions that could automatically be billed and renewed on a regular basis (i.e. every month, 6-months or year). The goal of this project was to create an experience for students and professors that would allow them to easily manage their subscriptions and payments and to create an experience for administrators that would allow them to configure and manage subscription products in their stores."
-image:
+audience: "students and professors in post-secondary institutions"
+description: "This project was initiated to meet a new business requirement for supporting recurring billing for subscription products. Previously, software product licenses included perpetual and time-bound options. The new direction necessitated enabling recurring subscriptions with automatic billing and renewal intervals (e.g., monthly, every 6 months, annually). The project aimed to provide students and professors with seamless subscription and payment management experiences, while allowing administrators to configure and manage subscription products effectively."
+duration: "36 weeks"
+hero:
+    caption: ""
+    embed: true
+    url: "https://whimsical.com/embed/5XYp3sneXV7tGMY9jEhruK"
+thumbnail:
     url: "/design/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
     alt: "Alternative text."
+layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Competitor Analysis", "Content Development", "Wireframes"]
+title: "Recurring Billing for Subscription Offerings"
+year: "2018"
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-<figure>
-    <iframe src="https://whimsical.com/recurring-billing-5XYp3sneXV7tGMY9jEhruK"></iframe>
-    <figcaption>
-    Caption.</a>.
-    </figcaption>
-</figure>
-
-## Year
-
-2018
-
-## Audience
-
-Students and professors in post-secondary institutions
-
-## Duration
-
-36 weeks
 
 ## Description
 

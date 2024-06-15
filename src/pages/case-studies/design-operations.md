@@ -1,31 +1,21 @@
 ---
-title: "Design Operations"
-description: "User experience as a discipline is relatively new in Government of Canada information technology (IT) organizations. I joined an organization where there were some user experience designers and researchers on staff, however there was not a good understanding of the role among all teams and project stakeholders. This created challenges for team leads and managers to properly support these staff members. Project stakeholders often had never worked with a researcher before and did not understand the value that research can bring to their projects. This initiative was created out of a need to scale user experience practices and grow organizational user experience maturity."
-image:
+audience: "user experience researchers and designers, development teams, projects stakeholders and management"
+description: "In Government of Canada IT organizations, user experience (UX) is a nascent discipline. When I joined, there were UX designers and researchers, but their roles weren't widely understood across teams and stakeholders. This posed challenges for supporting these staff members effectively. Many project stakeholders had little experience with researchers and undervalued their contributions. This initiative aimed to scale UX practices and enhance organizational UX maturity."
+duration: "Ongoing"
+hero:
+    caption: "UX Enablement Strategic Roadmap: This roadmap was created to capture the high-level goals, outcomes, opportunities, and ideas for design operations in our organization in 2024."
+    embed: true
+    url: "https://miro.com/app/embed/uXjVNC6nmns=/?pres=1&frameId=3458764586605651031&embedId=118798217302"
+thumbnail:
+    alt: ""
     url: "/design/design-operations/design-operations-thumbnail.png"
-    alt: "Alternative text."
+layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Accessibility", "Design Operations", "Design System"]
+title: "Design Operations"
+year: 2023
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-<figure>
-    <iframe class="embed" src="https://miro.com/app/embed/uXjVNC6nmns=/?pres=1&frameId=3458764586605651031&embedId=118798217302" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-    </div>
-    <figcaption>UX Enablement Strategic Roadmap: This roadmap was created to capture the high-level goals, outcomes, opportunities, and ideas for design operations in our organization in 2024.</figcaption>
-</figure>
-
-## Year
-
-2023-Present
-
-## Audience
-
-User experience researchers and designers, development teams, projects stakeholders and management
-
-## Duration
-
-Ongoing
 
 ## Description
 
@@ -43,13 +33,10 @@ I am one of two researchers working on a user experience enablement team. I shar
 
 We began by gathering feedback and input from our different audiences. We conducted user research with the 12 researchers and designers in the organization. We used a quantitative survey and qualitative one-on-one interviews. Our research goals were:
 
-Understand the scope of the user experience role across different teams in the organization.
-
-Identify pain points that are impacting designers, teams, and projects.
-
-Determine what support and resources user experience designers need to be successful on their projects.
-
-Establish a baseline of overall job satisfaction.
+1. Understand the scope of the user experience role across different teams in the organization.
+2. Identify pain points that are impacting designers, teams, and projects.
+3. Determine what support and resources user experience designers need to be successful on their projects.
+4. Establish a baseline of overall job satisfaction.
 
 We analyzed these findings for patterns and identified seven key pain points. We conducted a workshop with the design community to prioritize these pain points and to brainstorm actions we could take to help resolve these issues.
 
@@ -81,17 +68,17 @@ Based on input, we defined the scope of an MVP and introduced this to the design
 
 We are adapting the design system based on feedback to address any gaps and ensure the resources are clear and easy to understand by all roles in the organization. Our goal is to mature our design system to a place where it reduces strain on teams to focus on larger, more complex problems.
 
-To see an example from the design system, please visit Guidelines for Accordion Panels.
+To see an example from the design system, please visit <a href="https://docs.google.com/document/d/118pLFl4A3BgZ4gy19spOVMT0Atm-n-H_/edit?usp=sharing&ouid=115945092855345335283&rtpof=true&sd=true" target="_blank">Guidelines for Accordion Panels</a>.
 
 ### Accessibility
 
-Creating applications and experiences that are accessible for all users is a key tenant of the Government of Canada digital standards. With the introduction of the Accessible Canada Act in 2019 there has been a renewed focus on accessibility in our organization.
+Creating applications and experiences that are accessible for all users is a key tenant of the Government of Canada digital standards. With the introduction of the <a href="https://www.canada.ca/en/employment-social-development/programs/accessible-canada/act-summary.html" target="_blank">Accessible Canada Act</a> in 2019 there has been a renewed focus on accessibility in our organization.
 
 Addressing the accessibility problems of our portfolio is a large undertaking, so we broke this down into smaller increments of work. We began with an initiative to improve accessibility literacy in the organization. We started by ensuring that every component and pattern in our design system included guidelines on accessible use and implementation. We then built a knowledge base that includes training, recommended conferences and webinars, checklists, testing tools, online resources, and articles on getting started. Finally, we ran workshops and collaborative learning sessions both with the design community and with our product teams.
 
 In the current phase of this project, we are procuring automated accessibility testing software for one product team. This team will pilot test the software and we will measure whether having these tools results in a better quality, more accessible product for the end users.
 
-To see an example from the accessibility knowledge base, please visit Getting to Know WCAG 2.2.
+To see an example from the accessibility knowledge base, please visit <a href="https://docs.google.com/document/d/1P1zvoQ7YmlZRgAZ9hxL7Uyu9n_K07ijq/edit?usp=sharing&ouid=115945092855345335283&rtpof=true&sd=true" target="_blank">Getting to Know WCAG 2.2</a>.
 
 ### Staffing
 

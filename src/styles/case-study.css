@@ -1,0 +1,41 @@
+.case-study {
+    max-width: 800px;
+    margin-bottom: 8rem;
+}
+
+.case-study h2:first-of-type {
+    margin-top: 3rem;
+}
+
+.case-study h2 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.case-study .figure + h2 {
+    margin-top: 1rem;
+}
+
+.case-study .figure + p {
+    margin-top: 1rem;
+}
+
+.case-study h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.case-study .figure {
+    margin-top: 1rem;
+}
+
+.figure:last-child {
+    margin-bottom: 0;
+}
+
+.ratio + .figure-caption {
+    margin-top: 0.5rem;
+}

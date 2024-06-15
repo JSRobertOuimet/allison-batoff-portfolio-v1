@@ -1,42 +1,34 @@
 ---
-title: "E-Reader Text-to-Speech Feature"
-description: "The purpose of this project was to conceptualize and design a new customer portal. This project was undertaken to support a change in business direction from selling fixed contracts to a subscription payment model. This application was used by customers to track work, view reports and open tickets. The goal of this project was to create an experience that would be catered to the specific needs of different user groups, providing them with the level of information they needed in a just-in-time manner."
-image:
+audience: "students in post-secondary institutions"
+description: "The project aimed to enhance the user experience of the existing Read Aloud text-to-speech feature, addressing common user frustrations and ensuring consistency across Windows, Mac, iOS, and Android platforms, as well as PDF and EPUB book formats. It aimed to empower users with more control over their reading experience and provide significant benefits for students facing learning challenges or visual impairments."
+duration: 8 weeks
+hero:
+    alt: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
+    caption: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
+    embed: false
+    url: "/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
+thumbnail:
     url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
     alt: "Alternative text."
+layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
+title: "E-Reader Text-to-Speech Feature"
+year: 2019
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-<figure>
-  <img src="/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg" alt="Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet.">
-  <figcaption>
-    Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet.
-  </figcaption>
-</figure>
-
-## Year
-
-2019
-
-## Audience
-
-Students in post-secondary institutions
-
-## Duration
-
-8 weeks
 
 ## Description
 
 The purpose of this project was to improve the experience of an existing text-to-speech feature (called Read Aloud) that was a regular pain point for users and to make the experience consistent across platforms (Windows, Mac, iOS and Android) and between book formats (PDF and EPUB). The goal of this project was to design a feature that would allow users to have more control over how their books were read and to provide value for students with learning challenges or visual impairments.
 
 <figure>
-  <blockquote>
-    It starts reading the text from the very beginning and doesn’t let you decide where to start reading from. The laptop top [sic] app does though. I think this feature will be an amazing tool students can utilize! Please fix and update.
-    <figcaption>Student User Review</figcaption>
-  </blockquote>
+    <blockquote class="blockquote">
+        <p>It starts reading the text from the very beginning and doesn’t let you decide where to start reading from. The laptop top [sic] app does though. I think this feature will be an amazing tool students can utilize! Please fix and update.</p>
+        <figcaption class="blockquote-footer">
+            Student User Review
+        </figcaption>
+    </blockquote>
 </figure>
 
 ## Project Role
@@ -52,21 +44,12 @@ In order to understand the needs of students with learning challenges, we met wi
 We used these findings to capture the user experience requirements for this feature, communicated them to the development team and project stakeholders and worked alongside the QA team to test during implementation.
 
 <figure>
-  <blockquote>
-    Students are not taught to read textbooks from beginning to end, but rather to jump around the book: introduction, conclusion, chapter questions, selective parts of the chapters. When the audio is set to begin at the top of the screen, this makes it difficult for users to pick up where they left off.
-  <figcaption>SME Interview Participant</figcaption>
-  </blockquote>
-</figure>
-
-## Solution
-
-While capturing user feedback, we discovered that many students were using this feature while commuting. Understanding this use case helped us to prioritize some requirements, including allowing the book to be read continuously, giving the users access to audio controls on their phone’s lock screen and making it easy for them to skip back to a previous section if they missed some of the content that was read. We also introduced word-by-word highlighting to further assist students with learning challenges to follow along with the text.
-
-<figure>
-  <img src="/design/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.">
-  <figcaption>
-    Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.
-  </figcaption>
+    <blockquote class="blockquote">
+        <p>Students are not taught to read textbooks from beginning to end, but rather to jump around the book: introduction, conclusion, chapter questions, selective parts of the chapters. When the audio is set to begin at the top of the screen, this makes it difficult for users to pick up where they left off.</p>
+        <figcaption class="blockquote-footer">
+            SME Interview Participant
+        </figcaption>
+    </blockquote>
 </figure>
 
 ## Challenges
@@ -75,7 +58,22 @@ One of the biggest challenges in this project was the requirement to support bot
 
 We needed to make a decision about whether to add some nice-to-have features to EPUB books, knowing that these would be absent from the experience for users with PDFs. We had received feedback from users in that past that they did not understand the difference between these formats and simply felt that some books in their library had a better experience than others. We did not want to create additional confusion or friction so we opted to create a consistent experience between formats.
 
-<figure>
-  <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8sPUfwKAHXyv5rP65gBcMR%2FCase-Study-4-E-Reader-Text-to-Speech-Feature%3Fnode-id%3D68%253A793%26viewport%3D536%252C40%252C1.4114350080490112%26scaling%3Dcontain" allowfullscreen></iframe>
- <figcaption>User Scenarios: Requirements were captured using scenarios. This allowed us to illustrate various ways that users might interact with the feature and ensured that we had designed purposeful, and well thought-out results to these behaviours.</figcaption>
+<figure class="figure">
+    <div class="ratio ratio-4x3">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8sPUfwKAHXyv5rP65gBcMR%2FE-Reader-Text-to-Speech-Feature%3Fnode-id%3D68-793%26t%3Dgb4qiU3GkMUDayjO-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26page-id%3D68%253A786" allowfullscreen></iframe>
+    </div>
+    <figcaption class="figure-caption">
+        User Scenarios: Requirements were captured using scenarios. This allowed us to illustrate various ways that users might interact with the feature and ensured that we had designed purposeful, and well thought-out results to these behaviours.
+    </figcaption>
+</figure>
+
+## Solution
+
+While capturing user feedback, we discovered that many students were using this feature while commuting. Understanding this use case helped us to prioritize some requirements, including allowing the book to be read continuously, giving the users access to audio controls on their phone’s lock screen and making it easy for them to skip back to a previous section if they missed some of the content that was read. We also introduced word-by-word highlighting to further assist students with learning challenges to follow along with the text.
+
+<figure class="figure">
+  <img src="/design/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused." class="figure-img img-fluid">
+  <figcaption class="figure-caption">
+    Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.
+  </figcaption>
 </figure>
