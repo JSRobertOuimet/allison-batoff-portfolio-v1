@@ -1,8 +1,46 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const caseStudies = await Astro.glob("./case-studies/*.md");
 const pageTitle = "Design";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <p>Content for {pageTitle}.</p>
+    <ul class="ps-0">
+        {
+            caseStudies.map(caseStudy => (
+                <li>
+                    <div class="card mb-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src={caseStudy.frontmatter.thumbnail.url} class="img-fluid w-100" alt={caseStudy.frontmatter.thumbnail.alt} />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h2 class="card-title">{caseStudy.frontmatter.title}</h2>
+                                    <div class="card-text">
+                                        <p>{caseStudy.frontmatter.description}</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        {caseStudy.frontmatter.tags.map(tag => (
+                                            <span class="badge rounded-pill text-bg-secondary me-2">{tag}</span>
+                                        ))}
+                                    </div>
+                                    <a href={caseStudy.url} class="btn btn-primary">
+                                        View Case Study
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            ))
+        }
+    </ul>
 </BaseLayout>
+
+<style>
+    li {
+        list-style-type: none;
+    }
+</style>
