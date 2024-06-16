@@ -4,12 +4,11 @@ description: "In Government of Canada IT organizations, user experience (UX) is 
 duration: "Ongoing"
 hero:
     caption: "UX Enablement Strategic Roadmap: This roadmap was created to capture the high-level goals, outcomes, opportunities, and ideas for design operations in our organization in 2024."
-    embed: true
+    isEmbed: true
     url: "https://miro.com/app/embed/uXjVNC6nmns=/?pres=1&frameId=3458764586605651031&embedId=118798217302"
 thumbnail:
     alt: ""
     url: "/design/design-operations/design-operations-thumbnail.png"
-layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Accessibility", "Design Operations", "Design System"]
 title: "Design Operations"
 year: 2023

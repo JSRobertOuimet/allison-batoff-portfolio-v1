@@ -3,16 +3,15 @@ audience: "Government of Canada administrators"
 description: "This project addressed a new government policy mandating cost recovery for services, replacing the previous free-of-charge model. It introduced fees, implemented strict service standards, and enhanced daily activity tracking. The goal was to redesign the service to comply with these requirements and automate tasks prone to manual errors."
 duration: "52 weeks"
 hero:
-    embed: true
+    isEmbed: true
     caption: ""
     url: "https://miro.com/app/embed/o9J_ls5VonA=/?pres=1&frameId=3458764586914125853&embedId=989414346837"
 thumbnail:
     url: "/design/workload-management/workload-management-thumbnail.png"
     alt: "Alternative text."
-layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Job Shadowing", "Service Design", "User Journey Map"]
 title: "Workload Management"
-year: "2022"
+year: 2022
 ---
 
 <!-- markdownlint-disable MD033 -->

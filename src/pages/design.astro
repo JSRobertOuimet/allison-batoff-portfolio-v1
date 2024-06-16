@@ -1,8 +1,9 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const caseStudies = await Astro.glob("./case-studies/*.md");
 const pageTitle = "Design";
+const caseStudies = await getCollection("case-studies");
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -13,20 +14,20 @@ const pageTitle = "Design";
                     <div class="card mb-5">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src={caseStudy.frontmatter.thumbnail.url} class="img-fluid w-100" alt={caseStudy.frontmatter.thumbnail.alt} />
+                                <img src={caseStudy.data.thumbnail.url} class="img-fluid w-100" alt={caseStudy.data.thumbnail.alt} />
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h2 class="card-title">{caseStudy.frontmatter.title}</h2>
+                                    <h2 class="card-title">{caseStudy.data.title}</h2>
                                     <div class="card-text">
-                                        <p>{caseStudy.frontmatter.description}</p>
+                                        <p>{caseStudy.data.description}</p>
                                     </div>
                                     <div class="d-flex mb-3">
-                                        {caseStudy.frontmatter.tags.map(tag => (
+                                        {caseStudy.data.tags.map(tag => (
                                             <span class="badge rounded-pill text-bg-secondary me-2">{tag}</span>
                                         ))}
                                     </div>
-                                    <a href={caseStudy.url} class="btn btn-primary">
+                                    <a href={`/case-studies/${caseStudy.slug}`} class="btn btn-primary">
                                         View Case Study
                                     </a>
                                 </div>

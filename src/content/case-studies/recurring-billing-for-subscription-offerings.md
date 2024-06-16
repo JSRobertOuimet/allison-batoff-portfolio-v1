@@ -4,15 +4,14 @@ description: "This project was initiated to meet a new business requirement for 
 duration: "36 weeks"
 hero:
     caption: ""
-    embed: true
+    isEmbed: true
     url: "https://whimsical.com/embed/5XYp3sneXV7tGMY9jEhruK"
 thumbnail:
     url: "/design/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
     alt: "Alternative text."
-layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Competitor Analysis", "Content Development", "Wireframes"]
 title: "Recurring Billing for Subscription Offerings"
-year: "2018"
+year: 2018
 ---
 
 <!-- markdownlint-disable MD033 -->

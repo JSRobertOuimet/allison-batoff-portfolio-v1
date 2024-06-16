@@ -3,16 +3,15 @@ audience: "database administrators"
 description: "The project aimed to evaluate usability challenges and pain points in an enterprise application used for tracking work, monitoring client system status, and scheduling and assigning roles. Its goal was to understand usage patterns, pinpoint areas needing improvement, and prioritize changes that would enhance user experience with minimal disruption to business operations."
 duration: "26 weeks"
 hero:
-    embed: true
+    isEmbed: true
     caption: "Ticketing System Mind Map: This mind map was created to visualize the results of a card sorting exercise with 12 participants. Participants were asked to organize 57 cards into categories, placing similar content together. This remote testing was conducted using OptimalSort."
     url: "https://whimsical.com/embed/C1WETPZE1eE8uCZ4GyuWtP"
 thumbnail:
     alt: ""
     url: "/design/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"
-layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Card Sorting", "Interactive Prototype", "Survey", "User Interview"]
 title: "Internal Ticketing System for DBAs"
-year: "2015"
+year: 2015
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -4,15 +4,14 @@ description: "The project aimed to research how post-secondary institutions purc
 duration: "12 weeks"
 hero:
     caption: "University Approval Process Flow Diagram: This process flow diagram was created to visualize the insights gathered from a user interview."
-    embed: true
+    isEmbed: true
     url: "https://whimsical.com/embed/BFN56x5yXFPpf929KthMnu"
 thumbnail:
     url: "/design/university-purchasing-approval-flows/university-purchasing-approval-flows-thumbnail.jpg"
     alt: "Alternative text."
-layout: "../../layouts/CaseStudyLayout.astro"
 tags: ["Competitor Analysis", "Process Flow Diagram", "User Interviews"]
 title: "University Purchasing Approval Flows"
-year: "2020"
+year: 2020
 ---
 
 <!-- markdownlint-disable MD033 -->

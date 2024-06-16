@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
         <main>
             <div class="container">
                 {
-                    frontmatter.hero.embed ? (
+                    frontmatter.hero.isEmbed ? (
                         <figure class="figure w-100">
                             <div class="ratio ratio-16x9">
                                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src={frontmatter.hero.url} allowfullscreen />

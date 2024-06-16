@@ -5,12 +5,11 @@ duration: 8 weeks
 hero:
     alt: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
     caption: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
-    embed: false
+    isEmbed: false
     url: "/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
 thumbnail:
-    url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
     alt: "Alternative text."
-layout: "../../layouts/CaseStudyLayout.astro"
+    url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
 tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
 title: "E-Reader Text-to-Speech Feature"
 year: 2019
