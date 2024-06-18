@@ -12,6 +12,7 @@ const caseStudiesCollection = defineCollection({
             caption: z.string(),
             url: z.string(),
         }),
+        id: z.number(),
         tags: z.array(z.string()),
         thumbnail: z.object({
             alt: z.string(),

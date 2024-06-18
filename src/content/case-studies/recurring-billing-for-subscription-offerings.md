@@ -6,6 +6,7 @@ hero:
     caption: ""
     isEmbed: true
     url: "https://whimsical.com/embed/5XYp3sneXV7tGMY9jEhruK"
+id: 6
 thumbnail:
     url: "/design/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
     alt: "Alternative text."

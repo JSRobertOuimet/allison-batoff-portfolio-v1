@@ -6,6 +6,7 @@ hero:
     isEmbed: true
     caption: ""
     url: "https://miro.com/app/embed/o9J_ls5VonA=/?pres=1&frameId=3458764586914125853&embedId=989414346837"
+id: 8
 thumbnail:
     url: "/design/workload-management/workload-management-thumbnail.png"
     alt: "Alternative text."

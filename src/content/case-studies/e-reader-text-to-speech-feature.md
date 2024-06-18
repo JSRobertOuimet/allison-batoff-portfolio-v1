@@ -7,6 +7,7 @@ hero:
     caption: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
     isEmbed: false
     url: "/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
+id: 4
 thumbnail:
     alt: "Alternative text."
     url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"

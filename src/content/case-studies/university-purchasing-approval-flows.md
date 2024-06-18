@@ -6,6 +6,7 @@ hero:
     caption: "University Approval Process Flow Diagram: This process flow diagram was created to visualize the insights gathered from a user interview."
     isEmbed: true
     url: "https://whimsical.com/embed/BFN56x5yXFPpf929KthMnu"
+id: 7
 thumbnail:
     url: "/design/university-purchasing-approval-flows/university-purchasing-approval-flows-thumbnail.jpg"
     alt: "Alternative text."

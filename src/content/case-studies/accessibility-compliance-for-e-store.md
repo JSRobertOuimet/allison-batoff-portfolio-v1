@@ -7,6 +7,7 @@ hero:
     isEmbed: false
     caption: "Form Accessibility for Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue."
     url: "/design/accessibility-compliance-for-e-store/screen-reader.gif"
+id: 5
 tags: ["Accessibility Audit", "Documentation", "Wireframes"]
 thumbnail:
     alt: ""

@@ -6,6 +6,7 @@ hero:
     caption: "Content Management for RFPs Mockups: These mockups were used to communicate with the development team for implementation and to set expectations with project stakeholders."
     isEmbed: true
     url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FContent-Management-for-RFPs%3Fnode-id%3D337-218%26t%3DdyPBLMARkNOGiCw9-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D337%253A54"
+id: 3
 thumbnail:
     alt: ""
     url: "/design/content-management-for-rfps/content-management-for-rfps-thumbnail.jpg"

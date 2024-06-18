@@ -1,20 +1,38 @@
 ---
 import { getCollection } from "astro:content";
+import { sortById } from "../../utils/sortById";
 import CaseStudyLayout from "../../layouts/CaseStudyLayout.astro";
 
 export async function getStaticPaths() {
-    const caseStudyEntries = await getCollection("case-studies");
+    const allCaseStudies = await getCollection("case-studies");
+    const numberOfCaseStudies = allCaseStudies.length;
 
-    return caseStudyEntries.map(entry => ({
-        params: { slug: entry.slug },
-        props: { entry },
+    return allCaseStudies.sort(sortById).map((caseStudy, i) => ({
+        params: {
+            slug: caseStudy.slug,
+        },
+        props: {
+            caseStudy,
+            previousCaseStudy: i === 0 ? allCaseStudies.at(-1) : allCaseStudies[i - 1],
+            nextCaseStudy: i === numberOfCaseStudies + 1 ? allCaseStudies[0] : allCaseStudies[i + 1],
+        },
     }));
 }
 
-const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { caseStudy, previousCaseStudy, nextCaseStudy } = Astro.props;
+const { Content } = await caseStudy.render();
 ---
 
-<CaseStudyLayout frontmatter={entry.data}>
+<CaseStudyLayout frontmatter={caseStudy.data}>
     <Content />
+    <div class="row">
+        <div class="col">
+            <div>Previous</div>
+            <div><a href=`/case-studies/${previousCaseStudy?.slug}`>{previousCaseStudy?.data.title}</a></div>
+        </div>
+        <div class="col">
+            <div>Next</div>
+            <div><a href=`/case-studies/${nextCaseStudy?.slug}`>{nextCaseStudy.data.title}</a></div>
+        </div>
+    </div>
 </CaseStudyLayout>

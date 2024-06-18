@@ -6,6 +6,7 @@ hero:
     isEmbed: true
     caption: "Ticketing System Mind Map: This mind map was created to visualize the results of a card sorting exercise with 12 participants. Participants were asked to organize 57 cards into categories, placing similar content together. This remote testing was conducted using OptimalSort."
     url: "https://whimsical.com/embed/C1WETPZE1eE8uCZ4GyuWtP"
+id: 1
 thumbnail:
     alt: ""
     url: "/design/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"

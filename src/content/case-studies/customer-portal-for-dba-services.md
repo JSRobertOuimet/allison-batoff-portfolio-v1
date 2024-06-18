@@ -6,6 +6,7 @@ hero:
     caption: "Customer Portal Mockups: These mockups were used to communicate with the development team for implementation and to set expectations with project stakeholders."
     isEmbed: true
     url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqiuJoZQhPpfAiOMvAe0dcP%2FCustomer-Portal-for-DBA-Services%3Fnode-id%3D11-627%26t%3DDI3dwFH1ejlkJZbR-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1"
+id: 2
 thumbnail:
     alt: ""
     url: "/design/customer-portal-for-dba-services/customer-portal-for-dba-services-thumbnail.jpg"

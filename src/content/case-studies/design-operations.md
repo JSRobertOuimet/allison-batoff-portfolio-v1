@@ -6,6 +6,7 @@ hero:
     caption: "UX Enablement Strategic Roadmap: This roadmap was created to capture the high-level goals, outcomes, opportunities, and ideas for design operations in our organization in 2024."
     isEmbed: true
     url: "https://miro.com/app/embed/uXjVNC6nmns=/?pres=1&frameId=3458764586605651031&embedId=118798217302"
+id: 9
 thumbnail:
     alt: ""
     url: "/design/design-operations/design-operations-thumbnail.png"
