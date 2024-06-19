@@ -11,7 +11,7 @@ thumbnail:
     alt: ""
     url: "/design/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"
 tags: ["Card Sorting", "Interactive Prototype", "Survey", "User Interview"]
-title: "Internal Ticketing System for DBAs"
+title: "Internal Ticketing System for DBAS"
 year: 2015
 ---
 
