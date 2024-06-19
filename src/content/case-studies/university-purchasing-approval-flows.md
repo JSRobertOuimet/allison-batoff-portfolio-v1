@@ -8,7 +8,7 @@ hero:
     url: "https://whimsical.com/embed/BFN56x5yXFPpf929KthMnu"
 id: 7
 thumbnail:
-    url: "/design/university-purchasing-approval-flows/university-purchasing-approval-flows-thumbnail.jpg"
+    url: "/case-studies/university-purchasing-approval-flows/university-purchasing-approval-flows-thumbnail.jpg"
     alt: "Alternative text."
 tags: ["Competitor Analysis", "Process Flow Diagram", "User Interviews"]
 title: "University Purchasing Approval Flows"

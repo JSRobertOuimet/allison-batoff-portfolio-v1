@@ -9,7 +9,7 @@ hero:
 id: 3
 thumbnail:
     alt: ""
-    url: "/design/content-management-for-rfps/content-management-for-rfps-thumbnail.jpg"
+    url: "/case-studies/content-management-for-rfps/content-management-for-rfps-thumbnail.jpg"
 tags: ["Domain Analysis", "High-Fidelity Mockups", "Wireframes"]
 title: "Content Management for RFPs"
 year: 2018

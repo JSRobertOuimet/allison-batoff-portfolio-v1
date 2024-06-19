@@ -9,7 +9,7 @@ hero:
 id: 2
 thumbnail:
     alt: ""
-    url: "/design/customer-portal-for-dba-services/customer-portal-for-dba-services-thumbnail.jpg"
+    url: "/case-studies/customer-portal-for-dba-services/customer-portal-for-dba-services-thumbnail.jpg"
 tags: ["A/B Testing", "Persona", "User Acceptance Testing", "User Interviews"]
 title: "Customer Portal for DBA Services"
 year: 2017

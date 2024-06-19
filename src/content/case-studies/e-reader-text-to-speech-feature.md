@@ -6,11 +6,11 @@ hero:
     alt: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
     caption: "Read Aloud Feature Mockups: (from left to right) (1) Mobile lock screen with audio controls, (2) Read Aloud on mobile phone, (3) Read Aloud on tablet."
     isEmbed: false
-    url: "/design/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
+    url: "/case-studies/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
 id: 4
 thumbnail:
     alt: "Alternative text."
-    url: "/design/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
+    url: "/case-studies/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
 tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
 title: "E-Reader Text-to-Speech Feature"
 year: 2019
@@ -72,7 +72,7 @@ We needed to make a decision about whether to add some nice-to-have features to 
 While capturing user feedback, we discovered that many students were using this feature while commuting. Understanding this use case helped us to prioritize some requirements, including allowing the book to be read continuously, giving the users access to audio controls on their phone’s lock screen and making it easy for them to skip back to a previous section if they missed some of the content that was read. We also introduced word-by-word highlighting to further assist students with learning challenges to follow along with the text.
 
 <figure class="figure">
-  <img src="/design/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused." class="figure-img img-fluid">
+  <img src="/case-studies/e-reader-text-to-speech-feature/text-to-speech.gif" alt="Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused." class="figure-img img-fluid">
   <figcaption class="figure-caption">
     Read Aloud Feature: (1) User taps play icon to start Read Aloud, (2) a notification is displayed to tell the user that Read Aloud has started, (3) feature begins reading and outlines word-by-word, (4) user taps pause icon to pause Read Aloud, (5) a notification is displayed to tell the user that Read Aloud has paused.
   </figcaption>

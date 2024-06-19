@@ -6,12 +6,12 @@ hero:
     alt: "Form Accessibility for   Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue."
     isEmbed: false
     caption: "Form Accessibility for Screen Readers: (1) User moves focus to Change Password button, (2) user presses Change Password button, (3) request is processed and the screen reader reads “Processing”, (4) focus is brought to the New Password field where there is an error, (5) user is notified that their passwords do not match so that they may correct the issue."
-    url: "/design/accessibility-compliance-for-e-store/screen-reader.gif"
+    url: "/case-studies/accessibility-compliance-for-e-store/screen-reader.gif"
 id: 5
 tags: ["Accessibility Audit", "Documentation", "Wireframes"]
 thumbnail:
     alt: ""
-    url: "/design/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
+    url: "/case-studies/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
 title: "Accessibility Compliance for e-Store"
 year: 2020
 ---
@@ -51,7 +51,7 @@ Modal dialogs are announced to assistive technology so that visually impaired us
 It is generally a best practise not to overload these dialogs with too much content. However, if a modal must contain a large amount of content and therefore scroll, only the modal content should scroll and the background should be prevented from scrolling. Users must be able to easily return to their original context from within the modal dialog. Therefore, multiple methods were made available to users and are highlighted in the example below.
 
 <figure class="figure">
-    <img src="/design/accessibility-compliance-for-e-store/anatomy-of-a-modal.jpg" alt="Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key." class="figure-img img-fluid w-100">
+    <img src="/case-studies/accessibility-compliance-for-e-store/anatomy-of-a-modal.jpg" alt="Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key." class="figure-img img-fluid w-100">
     <figcaption class="figure-caption">
         Ways to exit the modal context: (1) “OK” button in bottom-right corner, (2) Close icon in top-right corner, (3) Clicking on the background outside the modal, (4) Pressing the “Escape” key.
     </figcaption>

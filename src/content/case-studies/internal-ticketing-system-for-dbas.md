@@ -9,7 +9,7 @@ hero:
 id: 1
 thumbnail:
     alt: ""
-    url: "/design/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"
+    url: "/case-studies/internal-ticketing-system-for-dbas/internal-ticketing-system-for-dbas-thumbnail.jpg"
 tags: ["Card Sorting", "Interactive Prototype", "Survey", "User Interview"]
 title: "Internal Ticketing System for DBAs"
 year: 2015

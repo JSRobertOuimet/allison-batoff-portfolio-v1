@@ -8,7 +8,7 @@ hero:
     url: "https://whimsical.com/embed/5XYp3sneXV7tGMY9jEhruK"
 id: 6
 thumbnail:
-    url: "/design/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
+    url: "/case-studies/recurring-billing-for-subscription-offerings/recurring-billing-for-subscription-offerings-thumbnail.png"
     alt: "Alternative text."
 tags: ["Competitor Analysis", "Content Development", "Wireframes"]
 title: "Recurring Billing for Subscription Offerings"
