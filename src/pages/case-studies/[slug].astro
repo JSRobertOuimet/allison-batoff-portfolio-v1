@@ -1,0 +1,74 @@
+---
+import { getCollection } from "astro:content";
+import { sortById } from "../../utils/sortById";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../constants";
+import Head from "../../components/Head.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import "../../styles/global.css";
+import "../../styles/case-study.css";
+
+export async function getStaticPaths() {
+    const allCaseStudies = await getCollection("case-studies");
+    const numberOfCaseStudies = allCaseStudies.length;
+
+    return allCaseStudies.sort(sortById).map((caseStudy, i) => ({
+        params: {
+            slug: caseStudy.slug,
+        },
+        props: {
+            caseStudy,
+            previousCaseStudy: i === 0 ? allCaseStudies[numberOfCaseStudies - 1] : allCaseStudies[i - 1],
+            nextCaseStudy: i === numberOfCaseStudies - 1 ? allCaseStudies[0] : allCaseStudies[i + 1],
+        },
+    }));
+}
+
+const { caseStudy, previousCaseStudy, nextCaseStudy } = Astro.props;
+const { Content } = await caseStudy.render();
+---
+
+<html lang="en">
+    <Head siteTitle={SITE_TITLE} siteDescription={SITE_DESCRIPTION} pageTitle={caseStudy.data.title} />
+    <body>
+        <Header />
+        <main>
+            <div class="container">
+                {
+                    caseStudy.data.hero.isEmbed ? (
+                        <figure class="figure w-100">
+                            <div class="ratio ratio-16x9">
+                                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src={caseStudy.data.hero.url} allowfullscreen />
+                            </div>
+                            <figcaption class="figure-caption">{caseStudy.data.hero.caption}</figcaption>
+                        </figure>
+                    ) : (
+                        <figure class="figure">
+                            <img src={caseStudy.data.hero.url} alt={caseStudy.data.hero.alt} class="figure-img img-fluid w-100" />
+                            <figcaption class="figure-caption">{caseStudy.data.hero.caption}</figcaption>
+                        </figure>
+                    )
+                }
+            </div>
+            <div class="container case-study mb-5">
+                <h1 class="mt-5 mb-3 text-center">{caseStudy.data.title}</h1>
+                <div class="lead text-center">
+                    {caseStudy.data.year} &bull; {caseStudy.data.duration} &bull; For {caseStudy.data.audience}
+                </div>
+                <Content />
+                <div class="row mt-5">
+                    <div class="col">
+                        <div>Previous</div>
+                        <div><a href={previousCaseStudy.slug}>{previousCaseStudy.data.title}</a></div>
+                    </div>
+                    <div class="col">
+                        <div>Next</div>
+                        <div><a href={nextCaseStudy.slug}>{nextCaseStudy.data.title}</a></div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <Footer />
+        </main>
+    </body>
+</html>
