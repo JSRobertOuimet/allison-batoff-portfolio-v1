@@ -28,23 +28,26 @@ const destinations = await getCollection("destinations");
 </BaseLayout>
 
 <style>
-    img {
-        aspect-ratio: 1/1;
-        object-fit: cover;
-        transition: opacity 400ms;
-    }
-
-    img:hover {
-        opacity: 0.4;
-    }
-
     li {
         list-style-type: none;
+    }
+    
+    .thumbnail img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
     }
 
     .thumbnail {
         position: relative;
         background-color: #000000;
+    }
+
+    .thumbnail img {
+        transition: opacity 400ms;
+    }
+
+    .thumbnail:hover img {
+        opacity: 0.4;
     }
 
     .thumbnail h2 {
