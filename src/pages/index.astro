@@ -1,9 +1,61 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "Photography";
+const destinations = await getCollection("destinations");
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <p>Content for {pageTitle}.</p>
+    <ul class="ps-0">
+        <div class="row">
+            {
+                destinations.map(destination => (
+                    <div class="col-4">
+                        <li>
+                            <a href={`/destinations/${destination.slug}`}>
+                                <div class="thumbnail d-flex justify-content-center align-items-center mb-4">
+                                    <img src={destination.data.thumbnail.url} class="img-fluid" alt={destination.data.thumbnail.alt} />
+                                    <h2>{destination.data.title}</h2>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                ))
+            }
+        </div>
+    </ul>
 </BaseLayout>
+
+<style>
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        transition: opacity 400ms;
+    }
+
+    img:hover {
+        opacity: 0.4;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .thumbnail {
+        position: relative;
+        background-color: #000000;
+    }
+
+    .thumbnail h2 {
+        position: absolute;
+        color: #ffffff;
+        opacity: 0;
+        object-fit: cover;
+        transition: opacity 400ms;
+    }
+
+    .thumbnail:hover h2 {
+        opacity: 1;
+    }
+</style>

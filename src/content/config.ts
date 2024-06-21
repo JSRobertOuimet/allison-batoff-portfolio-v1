@@ -23,6 +23,21 @@ const caseStudiesCollection = defineCollection({
     }),
 });
 
+const destinationsCollection = defineCollection({
+    type: "content",
+    schema: z.object({
+        id: z.number(),
+        description: z.string(),
+        imagesUrl: z.array(z.string()),
+        thumbnail: z.object({
+            alt: z.string(),
+            url: z.string(),
+        }),
+        title: z.string(),
+    }),
+});
+
 export const collections = {
     "case-studies": caseStudiesCollection,
+    destinations: destinationsCollection,
 };
