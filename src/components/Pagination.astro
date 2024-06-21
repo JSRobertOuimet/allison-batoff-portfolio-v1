@@ -1,0 +1,18 @@
+---
+const { directory, previousElement, nextElement } = Astro.props;
+---
+
+<div class="row mt-5">
+    <div class="col">
+        <div>Previous</div>
+        <div>
+            <a href={`/${directory}/${previousElement.slug}`}>{previousElement.data.title}</a>
+        </div>
+    </div>
+    <div class="col">
+        <div>Next</div>
+        <div>
+            <a href={`/${directory}/${nextElement.slug}`}>{nextElement.data.title}</a>
+        </div>
+    </div>
+</div>
