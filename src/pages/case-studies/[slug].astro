@@ -57,7 +57,7 @@ const { Content } = await caseStudy.render();
                     {caseStudy.data.year} &bull; {caseStudy.data.duration} &bull; For {caseStudy.data.audience}
                 </div>
                 <Content />
-                <Pagination directory="case-studies" previousElement={previousCaseStudy} nextElement={nextCaseStudy} />
+                <Pagination previousElement={previousCaseStudy} nextElement={nextCaseStudy} />
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
             <Footer />
