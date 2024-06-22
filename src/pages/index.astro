@@ -8,10 +8,10 @@ const destinations = await getCollection("destinations");
 
 <BaseLayout pageTitle={pageTitle}>
     <ul class="ps-0">
-        <div class="row">
+        <div class="row row-cols-2">
             {
                 destinations.map(destination => (
-                    <div class="col-4">
+                    <div class="col">
                         <li>
                             <a href={`/destinations/${destination.slug}`}>
                                 <div class="thumbnail d-flex justify-content-center align-items-center mb-4">
@@ -31,7 +31,7 @@ const destinations = await getCollection("destinations");
     li {
         list-style-type: none;
     }
-    
+
     .thumbnail img {
         aspect-ratio: 1/1;
         object-fit: cover;
