@@ -13,7 +13,7 @@ const caseStudies = await getCollection("case-studies");
             caseStudies.sort(sortById).map(caseStudy => (
                 <li class="case-study mb-4">
                     <a href={`/case-studies/${caseStudy.slug}`} class="text-reset">
-                        <h2 class="d-inline h5 mb-3">{caseStudy.data.title}</h2>
+                        <h2 class="d-inline h4 mb-3">{caseStudy.data.title}</h2>
                     </a>
                     <div class="d-flex my-3">
                         {caseStudy.data.tags.map(tag => (
