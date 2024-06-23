@@ -4,7 +4,7 @@ const { previousElement, nextElement } = Astro.props;
 
 <div class="row my-5">
     <div class="col-md">
-        <a href={previousElement.slug} class="text-reset text-decoration-none">
+        <a href=`/${previousElement.collection}/${previousElement.slug}` class="text-reset text-decoration-none">
             <div class="tile p-3">
                 <div class="small">Previous</div>
                 <div class="h4">{previousElement.data.title}</div>
@@ -12,7 +12,7 @@ const { previousElement, nextElement } = Astro.props;
         </a>
     </div>
     <div class="col-md">
-        <a href={nextElement.slug} class="text-reset text-decoration-none">
+        <a href=`/${nextElement.collection}/${nextElement.slug}` class="text-reset text-decoration-none">
             <div class="tile p-3">
                 <div class="small">Next</div>
                 <div class="h4">{nextElement.data.title}</div>
