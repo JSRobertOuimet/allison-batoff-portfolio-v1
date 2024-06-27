@@ -41,4 +41,4 @@ We iteratively worked through the process of refining our messaging by gathering
 
 On the configuration side, we needed to ensure that administrators could decide to stop offering a subscription product and that we had accounted for the scenario where there were still active subscribers. These subscribers would need to be able to continue out the length of their original subscription but receive clear communication that they could not renew.
 
-To see examples of this alert content, please visit [Alert Content for Recurring Billing](https://docs.google.com/document/d/1H9w1S7dDXy_e6RAqmfuo5wTJg-e4qSFjI1_3pWdbLkM/edit#heading=h.bwhy8gp6o5wj).
+To see examples of this alert content, please visit <a href="https://docs.google.com/document/d/1H9w1S7dDXy_e6RAqmfuo5wTJg-e4qSFjI1_3pWdbLkM/edit#heading=h.bwhy8gp6o5wj" target="_blank">Alert Content for Recurring Billing</a>.

@@ -60,9 +60,9 @@ We have received positive feedback that having this community has helped to redu
 
 The second initiative on our roadmap was to introduce a design system. This aligned with key management priorities of improving product delivery speed and increasing consistency across products. We believed this would also help address some of the pain points designers were experiencing, including:
 
--   Duplication of effort across teams​;
--   Adding unnecessary time to the design process​; and
--   Challenges onboarding new designers​.
+- Duplication of effort across teams​;
+- Adding unnecessary time to the design process​; and
+- Challenges onboarding new designers​.
 
 Based on input, we defined the scope of an MVP and introduced this to the design community in the winter of 2023/2024. Some teams are adopting the design system and we are beginning to measure the level of effort required for teams to onboard​ and how this impacts the time required for solution design and development​.
 
