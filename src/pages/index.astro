@@ -15,7 +15,7 @@ const caseStudies = await getCollection("case-studies");
                     <a href={`/case-studies/${caseStudy.slug}`} class="text-reset">
                         <h2 class="d-inline h4 mb-3">{caseStudy.data.title}</h2>
                     </a>
-                    <div class="d-flex my-3">
+                    <div class="my-3">
                         {caseStudy.data.tags.map(tag => (
                             <span class="tag">{tag}</span>
                         ))}
@@ -37,7 +37,6 @@ const caseStudies = await getCollection("case-studies");
     }
 
     .tag:not(:first-of-type)::before {
-        content: "\2022";
-        margin: 0 0.5rem;
+        content: ", ";
     }
 </style>
