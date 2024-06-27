@@ -58,7 +58,7 @@ One of the biggest challenges in this project was the requirement to support bot
 
 We needed to make a decision about whether to add some nice-to-have features to EPUB books, knowing that these would be absent from the experience for users with PDFs. We had received feedback from users in that past that they did not understand the difference between these formats and simply felt that some books in their library had a better experience than others. We did not want to create additional confusion or friction so we opted to create a consistent experience between formats.
 
-<figure class="figure">
+<figure class="figure w-100">
     <div class="ratio ratio-4x3">
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8sPUfwKAHXyv5rP65gBcMR%2FE-Reader-Text-to-Speech-Feature%3Fnode-id%3D68-793%26t%3Dgb4qiU3GkMUDayjO-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26page-id%3D68%253A786" allowfullscreen></iframe>
     </div>

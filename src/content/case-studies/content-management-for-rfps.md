@@ -31,7 +31,7 @@ I began this project by doing a domain analysis of the role and the environment 
 
 I used these requirements to build a set of wireframes and tested them with the SMEs. Based on their feedback and the results of testing, I produced high fidelity mockups and a set of design specs for implementation.
 
-<figure class="figure">
+<figure class="figure w-100">
     <div class="ratio ratio-4x3">
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY6sYC9neR0X7r2XACWqgOy%2FContent-Management-for-RFPs%3Fnode-id%3D68-793%26t%3DY5QG3ejsymw5f6rB-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26page-id%3D68%253A786%26starting-point-node-id%3D68%253A793" allowfullscreen></iframe>
     </div>

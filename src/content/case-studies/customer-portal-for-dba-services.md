@@ -33,7 +33,7 @@ Working from these requirements, I built process flow diagrams, wireframes and h
 
 We worked in an iterative process to release weekly. This allowed me to A/B test and validate different solutions. As we were reaching our external release date, I designed and facilitated user acceptance testing.
 
-<figure class="figure">
+<figure class="figure w-100">
     <div class="ratio ratio-4x3">
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaNWaFaeCDq4O9TSJCM04Lc%2FCustomer-Portal-for-DBA-Services%3Fnode-id%3D6-217%26t%3DPbKxXuxgQwJUcyvX-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26page-id%3D0%253A1" allowfullscreen></iframe>
     </div>
