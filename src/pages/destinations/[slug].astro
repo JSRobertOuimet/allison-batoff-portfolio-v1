@@ -12,9 +12,6 @@ import "../../styles/destination.css";
 export async function getStaticPaths() {
     const allDestinations = await getCollection("destinations");
     const numberOfDestinations = allDestinations.length;
-    const allDestinationPhotos = import.meta.glob(["../../../public/destinations/**/*.{jpg,png}", "../../../public/destinations/**/*.png"], {
-        eager: true,
-    });
 
     return allDestinations.sort(sortById).map((destination, i) => ({
         params: {

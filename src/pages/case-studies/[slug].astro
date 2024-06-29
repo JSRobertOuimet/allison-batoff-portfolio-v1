@@ -1,6 +1,7 @@
 ---
-import { getCollection } from "astro:content";
-import { sortById } from "../../utils/sortById";
+export const prerender = false;
+
+import { getEntry } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../constants";
 import Head from "../../components/Head.astro";
 import Header from "../../components/Header.astro";
@@ -9,23 +10,24 @@ import Footer from "../../components/Footer.astro";
 import "../../styles/global.css";
 import "../../styles/case-study.css";
 
-export async function getStaticPaths() {
-    const allCaseStudies = await getCollection("case-studies");
-    const numberOfCaseStudies = allCaseStudies.length;
+const { slug } = Astro.params;
+const urlParameter = Astro.url.searchParams.get("authenticate");
+const authenticated = urlParameter === import.meta.env.URL_PARAMETER;
 
-    return allCaseStudies.sort(sortById).map((caseStudy, i) => ({
-        params: {
-            slug: caseStudy.slug,
-        },
-        props: {
-            caseStudy,
-            previousCaseStudy: i === 0 ? allCaseStudies[numberOfCaseStudies - 1] : allCaseStudies[i - 1],
-            nextCaseStudy: i === numberOfCaseStudies - 1 ? allCaseStudies[0] : allCaseStudies[i + 1],
-        },
-    }));
+if (slug === undefined) {
+    return Astro.redirect("/404");
 }
 
-const { caseStudy, previousCaseStudy, nextCaseStudy } = Astro.props;
+const caseStudy = await getEntry("case-studies", slug);
+
+if (caseStudy === undefined) {
+    return Astro.redirect("/404");
+}
+
+if (!authenticated) {
+    return Astro.redirect("/authenticate");
+}
+
 const { Content } = await caseStudy.render();
 ---
 
@@ -59,7 +61,7 @@ const { Content } = await caseStudy.render();
                 <Content />
             </div>
             <div class="container">
-                <Pagination previousElement={previousCaseStudy} nextElement={nextCaseStudy} />
+                <!-- <Pagination previousElement={previousCaseStudy} nextElement={nextCaseStudy} /> -->
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
             <Footer />

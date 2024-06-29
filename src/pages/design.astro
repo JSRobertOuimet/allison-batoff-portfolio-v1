@@ -1,0 +1,64 @@
+---
+export const prerender = false;
+
+import { getCollection } from "astro:content";
+import { sortById } from "../utils/sortById";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Design";
+const caseStudies = await getCollection("case-studies");
+const urlParameter = Astro.url.searchParams.get("authenticate");
+const authenticated = urlParameter === import.meta.env.URL_PARAMETER;
+
+if (!authenticated) {
+    return Astro.redirect("/authenticate");
+}
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <ul class="ps-0">
+        {
+            caseStudies.sort(sortById).map(caseStudy => (
+                <li class="case-study mb-4">
+                    <a href={`/case-studies/${caseStudy.slug}`} class="case-study text-reset">
+                        <h2 class="d-inline h4 mb-3">{caseStudy.data.title}</h2>
+                    </a>
+                    <div class="my-3">
+                        {caseStudy.data.tags.map(tag => (
+                            <span class="tag">{tag}</span>
+                        ))}
+                    </div>
+                    <p class="mb-4">{caseStudy.data.description}</p>
+                </li>
+            ))
+        }
+    </ul>
+</BaseLayout>
+
+<style>
+    .case-study {
+        list-style-type: none;
+    }
+
+    .case-study:not(:last-of-type) {
+        border-bottom: 1px dashed rgb(33, 37, 41);
+    }
+
+    .tag:not(:first-of-type)::before {
+        content: ", ";
+    }
+</style>
+
+<script>
+    const url = new URLSearchParams(document.location.search);
+    const parameter = url.get("authenticate");
+    const links = document.querySelectorAll("a.case-study");
+
+    if (parameter) {
+        localStorage.setItem("parameter", parameter);
+
+        links.forEach(link => {
+            link.href += `?authenticate=${localStorage.getItem("parameter")}`;
+        });
+    }
+</script>
