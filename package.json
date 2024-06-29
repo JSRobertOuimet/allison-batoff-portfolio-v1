@@ -1,17 +1,17 @@
 {
-  "name": "allison-batoff-portfolio",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/netlify": "^5.3.3",
-    "@astrojs/node": "^8.3.2",
-    "astro": "^4.10.2"
-  }
+    "name": "allison-batoff-portfolio",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev node && HOST=0.0.0.0 PORT=4322 node ./dist/server/entry.mjs",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/netlify": "^5.3.3",
+        "@astrojs/node": "^8.3.2",
+        "astro": "^4.10.2"
+    }
 }

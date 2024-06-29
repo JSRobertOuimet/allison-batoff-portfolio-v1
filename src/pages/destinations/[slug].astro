@@ -34,14 +34,18 @@ const { destination, previousDestination, nextDestination } = Astro.props;
         <Header />
         <main>
             <div class="container mb-5">
-                <h1 class="mt-5 mb-3">{destination.data.title}</h1>
-                <p>{destination.data.description}</p>
-                <ul class="ps-0">
-                    <li>
-                        {destination.data.imagesUrl.map(imageUrl => <img src={imageUrl} alt="" class="img-fluid w-100 mb-4" />)}
-                    </li>
-                    <Pagination previousElement={previousDestination} nextElement={nextDestination} />
+                <h1 class="mb-5">{destination.data.title}</h1>
+                <p class="mb-5">{destination.data.description}</p>
+                <ul class="row ps-0">
+                    {
+                        destination.data.imagesUrl.map(imageUrl => (
+                            <li class="col-6">
+                                <img src={imageUrl} alt="" class="img-fluid w-100 mb-4" />
+                            </li>
+                        ))
+                    }
                 </ul>
+                <Pagination previousElement={previousDestination} nextElement={nextDestination} />
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
             <Footer />
