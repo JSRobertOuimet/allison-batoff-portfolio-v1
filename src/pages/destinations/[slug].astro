@@ -39,7 +39,7 @@ const { destination, previousDestination, nextDestination } = Astro.props;
                 <ul class="row ps-0">
                     {
                         destination.data.imagesUrl.map(imageUrl => (
-                            <li class="col-6">
+                            <li class="col-sm-6">
                                 <img src={imageUrl} alt="" class="img-fluid w-100 mb-4" />
                             </li>
                         ))
