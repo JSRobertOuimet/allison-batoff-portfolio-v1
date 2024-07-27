@@ -11,9 +11,9 @@ const destinations = await getCollection("destinations");
         <div class="row">
             {
                 destinations.map(destination => (
-                    <li class="col-sm-6 col-md-4 col-lg-3">
+                    <li class="col-md-6 col-xl-4">
                         <a href={`/destinations/${destination.slug}`}>
-                            <div class="thumbnail d-flex justify-content-center align-items-center mb-4">
+                            <div class="overlay d-flex justify-content-end align-items-end mb-4">
                                 <img src={destination.data.thumbnail.url} class="img-fluid" alt={destination.data.thumbnail.alt} />
                                 <h2>{destination.data.title}</h2>
                             </div>
@@ -30,22 +30,21 @@ const destinations = await getCollection("destinations");
         list-style-type: none;
     }
 
-    .thumbnail img {
+    .overlay {
+        position: relative;
+        background: linear-gradient(#00000000, #000000ff);
+    }
+
+    h2 {
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1rem;
+        color: #ffffff;
+        text-shadow: 0 1px 1rem hsl(0, 0%, 30%);
+    }
+
+    img {
         aspect-ratio: 1/1;
         object-fit: cover;
-    }
-
-    .thumbnail {
-        position: relative;
-        background-color: #000000;
-    }
-
-    .thumbnail img {
-        opacity: 0.5;
-    }
-
-    .thumbnail h2 {
-        position: absolute;
-        color: #ffffff;
     }
 </style>
