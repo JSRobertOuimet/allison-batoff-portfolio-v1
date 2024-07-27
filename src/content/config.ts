@@ -1,5 +1,10 @@
 import { z, defineCollection } from "astro:content";
 
+const destinationImage = z.object({
+    alt: z.string(),
+    url: z.string(),
+});
+
 const caseStudiesCollection = defineCollection({
     type: "content",
     schema: z.object({
@@ -28,7 +33,7 @@ const destinationsCollection = defineCollection({
     schema: z.object({
         id: z.number(),
         description: z.string(),
-        imagesUrl: z.array(z.string()),
+        images: z.array(destinationImage),
         thumbnail: z.object({
             alt: z.string(),
             url: z.string(),
