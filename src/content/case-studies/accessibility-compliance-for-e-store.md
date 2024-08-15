@@ -9,9 +9,6 @@ hero:
     url: "/case-studies/accessibility-compliance-for-e-store/screen-reader.gif"
 id: 5
 tags: ["Accessibility Audit", "Documentation", "Wireframes"]
-thumbnail:
-    alt: ""
-    url: "/case-studies/accessibility-compliance-for-e-store/accessibility-compliance-for-e-store-thumbnail.jpg"
 title: "Accessibility Compliance for e-Store"
 year: 2020
 ---

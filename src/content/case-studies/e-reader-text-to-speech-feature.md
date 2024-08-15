@@ -8,9 +8,6 @@ hero:
     isEmbed: false
     url: "/case-studies/e-reader-text-to-speech-feature/text-to-speech-mockups.jpg"
 id: 4
-thumbnail:
-    alt: "Alternative text."
-    url: "/case-studies/e-reader-text-to-speech-feature/e-reader-text-to-speech-feature-thumbnail.jpg"
 tags: ["Competitor Analysis", "High-Fidelity Mockups", "User Scenarios"]
 title: "E-Reader Text-to-Speech Feature"
 year: 2019

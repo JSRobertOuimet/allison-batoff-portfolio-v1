@@ -19,10 +19,6 @@ const caseStudiesCollection = defineCollection({
         }),
         id: z.number(),
         tags: z.array(z.string()),
-        thumbnail: z.object({
-            alt: z.string(),
-            url: z.string(),
-        }),
         title: z.string(),
         year: z.number(),
     }),

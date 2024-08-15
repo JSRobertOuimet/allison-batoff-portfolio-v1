@@ -7,9 +7,6 @@ hero:
     isEmbed: true
     url: "https://miro.com/app/embed/uXjVNC6nmns=/?pres=1&frameId=3458764586605651031&embedId=118798217302"
 id: 9
-thumbnail:
-    alt: ""
-    url: "/case-studies/design-operations/design-operations-thumbnail.png"
 tags: ["Accessibility", "Design Operations", "Design System"]
 title: "Design Operations"
 year: 2023

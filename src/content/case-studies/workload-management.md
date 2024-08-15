@@ -45,6 +45,15 @@ Unfortunately, because of the security approvals process, we were held up in dev
 
 The business requirements gathering and user research allowed us to write user stories and plan our backlog. We did this visually through user story mapping. From this visualization, we defined an MVP release to validate our assumptions. We designed a prototype of a workload management solution to import and display service requests. This read-only MVP helped us to collect feedback and refine the solution before adding more complex business logic.
 
+<figure class="figure">
+    <div class="ratio ratio-4x3">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOP6wybxPSVgwMBAjlMHGHv%2FWorkload-Management%3Fpage-id%3D0%253A1%26node-id%3D1-2568%26viewport%3D585%252C913%252C0.25%26t%3DiC8xqKNjPADlD4eO-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D1%253A2568" allowfullscreen></iframe>
+    </div>
+    <figcaption class="figure-caption">
+        Workload Management Prototype: This prototype was used to gather initial user feedback, to communicate with the development team for implementation and to set expectations with project stakeholders.
+    </figcaption>
+</figure>
+
 ## Metrics
 
 The digital certificate component of this MVP, which was launched in 2023, was able to achieve an 85% reduction in time spent by administrators over the previous paper process.
