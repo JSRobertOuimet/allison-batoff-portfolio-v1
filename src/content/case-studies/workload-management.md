@@ -35,6 +35,13 @@ We captured these findings in the form of use cases as well as in visualizations
 
 While we were working to learn and record the business requirements, we were also conducting research to understand the user needs. We held job shadowing sessions with individual administration team members to see their day-to-day workflow. We also conducted individual user interviews as well as focus groups to better understand their pain points.
 
+<figure class="figure">
+  <img src="/case-studies/workload-management/admin-persona.png" alt="User Persona: This persona was created based on findings collected from job shadowing sessions and user interviews." class="figure-img img-fluid border">
+  <figcaption class="figure-caption">
+    User Persona: This persona was created based on findings collected from job shadowing sessions and user interviews.
+  </figcaption>
+</figure>
+
 This allowed us to create a comprehensive journey map. The journey map illustrates the complexity of the current experience, tools involved, and pain points. We used this resource to guide conversations with our project team, users and stakeholders and to be able to point to exactly which issues we are aiming to address.
 
 ## Challenges
