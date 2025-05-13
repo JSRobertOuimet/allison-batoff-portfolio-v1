@@ -3,8 +3,8 @@ audience: "Government of Canada administrators"
 description: "This project addressed a new government policy mandating cost recovery for services, replacing the previous free-of-charge model. It introduced fees, implemented strict service standards, and enhanced daily activity tracking. The goal was to redesign the service to comply with these requirements and automate tasks prone to manual errors."
 duration: "52 weeks"
 hero:
+    caption: "Journey Map: This journey map was used to guide conversations with our project team, users and stakeholders and to be able to point to exactly which issues we are aiming to address."
     isEmbed: true
-    caption: ""
     url: "https://miro.com/app/embed/o9J_ls5VonA=/?pres=1&frameId=3458764586914125853&embedId=989414346837"
 id: 8
 thumbnail:

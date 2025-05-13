@@ -3,7 +3,7 @@ audience: "students and professors in post-secondary institutions"
 description: "This project was initiated to meet a new business requirement for supporting recurring billing for subscription products. Previously, software product licenses included perpetual and time-bound options. The new direction necessitated enabling recurring subscriptions with automatic billing and renewal intervals (e.g., monthly, every 6 months, annually). The project aimed to provide students and professors with seamless subscription and payment management experiences, while allowing administrators to configure and manage subscription products effectively."
 duration: "36 weeks"
 hero:
-    caption: ""
+    caption: "Wireframes: These wireframes were used to work through UX challenges and ensure that our team and stakeholders were in alignment."
     isEmbed: true
     url: "https://whimsical.com/embed/5XYp3sneXV7tGMY9jEhruK"
 id: 6
