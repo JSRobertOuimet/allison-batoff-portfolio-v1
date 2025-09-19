@@ -38,8 +38,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../constants";
 
 <script>
     if (localStorage.getItem("parameter")) {
-        const link = document.querySelector("a[href='/design']");
+        const link = document.querySelector("a[href='/design']") as HTMLAnchorElement | null;
 
-        link.href += `?authenticate=${localStorage.getItem("parameter")}`;
+        if (link) {
+            link.href += `?authenticate=${localStorage.getItem("parameter")}`;
+        }
     }
 </script>
